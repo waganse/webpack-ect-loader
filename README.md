@@ -12,7 +12,11 @@ npm i -D webpack-ect-loader
 
 ## Configuration
 
-This works well with [html-loader](https://github.com/webpack-contrib/html-loader).
+This works with the following helper packages
+
+- [html-loader](https://github.com/webpack-contrib/html-loader)
+- [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
+
 
 ``` javascript
 module.exports = {
@@ -35,6 +39,12 @@ module.exports = {
         ]
       },
     ]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: 'src/index.ect',
+      filename: 'index.[contenthash].html'
+    })
+  ]
 };
 ```
