@@ -1,34 +1,31 @@
 {
   "name": "webpack-ect-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ECT templates compiler for webpack4",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/waganse/webpack-ect-loader.git"
+      "type": "git",
+      "url": "git+https://github.com/waganse/webpack-ect-loader.git"
   },
   "keywords": [
-    "ect",
-    "loader",
-    "webpack",
-    "compiler",
-    "template",
-    "html",
-    "ejs",
-    "pug"
+      "ect",
+      "loader",
+      "webpack",
+      "compiler",
+      "template",
+      "html",
+      "ejs",
+      "pug"
   ],
   "author": "Yosuke Sato <waganse@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/waganse/webpack-ect-loader/issues"
+      "url": "https://github.com/waganse/webpack-ect-loader/issues"
   },
   "homepage": "https://github.com/waganse/webpack-ect-loader#readme",
   "dependencies": {
-    "pretty": "^2.0.0",
-    "ect": "^0.5.9"
-  },
-  "peerDependencies": {
+    "ect": "^0.5.9",
+    "pretty": "^2.0.0"
   }
 }
